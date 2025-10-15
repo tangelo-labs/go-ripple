@@ -20,6 +20,7 @@
  ## Installation:
 
     go get -u github.com/tangelo-labs/go-ripple
+    go install ./go-ripple (this compiles and installs the binary in $GOPATH/bin/go-ripple)
 
  Ensure you have Go installed (version 1.16 or later recommended).
  ## Usage:
