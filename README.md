@@ -24,11 +24,11 @@
  Ensure you have Go installed (version 1.16 or later recommended).
  ## Usage:
 
-	go run tools/dev/go-ripple/main.go [-b <base>] [-o <output>]
+	go run go-ripple/main.go [-b <base>] [-o <output>]
 
  ### Example:
 
-	go run tools/dev/go-ripple/main.go -b origin/main -o json
+	go run go-ripple/main.go -b origin/main -o json
 
  Dependencies:
 
