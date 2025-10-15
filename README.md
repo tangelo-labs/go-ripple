@@ -39,7 +39,9 @@
 
  ### Argument Flags:
 
- -b, --base   The Git base branch or commit to compare against. Defaults to "origin/main".
+ `-b, --base `  The Git base branch or commit to compare against. Defaults to "origin/main".
 
- This script is intended for monorepos or large Go projects where full builds or tests
+ `-o, --output` The output format: "json", "plain" or "explain".
+ 
+This script is intended for monorepos or large Go projects where full builds or tests
  are expensive and should be scoped to only affected components.
