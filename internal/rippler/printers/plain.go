@@ -13,6 +13,7 @@ func NewPlainPrinter() rippler.ReportPrinter {
 	return &plainPrinter{}
 }
 
+// Print prints the import paths of all affected packages, one per line.
 func (p *plainPrinter) Print(report *rippler.Report) error {
 	for i := range report.AffectedPackages {
 		fmt.Println(report.AffectedPackages[i].ImportPath)

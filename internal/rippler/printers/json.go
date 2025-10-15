@@ -14,6 +14,7 @@ func NewJSONPrinter() rippler.ReportPrinter {
 	return &jsonPrinter{}
 }
 
+// Print prints the affected packages in JSON format.
 func (j *jsonPrinter) Print(report *rippler.Report) error {
 	jsonData, err := json.MarshalIndent(report.AffectedPackages, "", "  ")
 	if err != nil {

@@ -17,6 +17,7 @@ type treeNode struct {
 func NewExplainPrinter() rippler.ReportPrinter {
 	return &explainPrinter{}
 }
+
 func (p *explainPrinter) Print(report *rippler.Report) error {
 	fmt.Println("Direct changes detected:")
 	p.changes(report)

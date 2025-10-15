@@ -68,10 +68,6 @@ func main() {
 		printer = printers.NewPlainPrinter()
 	case "json":
 		printer = printers.NewJSONPrinter()
-	case "test-plan":
-		printer = printers.NewTestPlanPrinter()
-	case "test-matrix":
-		printer = printers.NewTestMatrixPrinter()
 	case "explain":
 		printer = printers.NewExplainPrinter()
 	default:
