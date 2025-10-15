@@ -26,7 +26,7 @@
 
 	go run go-ripple/main.go [-b <base>] [-o <output>]
 
- ### Example:
+ #### Example:
 
 	go run go-ripple/main.go -b origin/main -o json
 
