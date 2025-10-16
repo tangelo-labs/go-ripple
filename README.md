@@ -19,8 +19,7 @@
    - JSON plan format that groups affected packages by application (if applicable) and lists others separately.
  ## Installation:
 
-    git clone github.com/tangelo-labs/go-ripple
-    go install ./go-ripple (this compiles and installs the binary in $GOPATH/bin/go-ripple)
+    go install github.com/tangelo-labs/go-ripple@latest
 
  Ensure you have Go installed (version 1.16 or later recommended).
  ## Usage:
