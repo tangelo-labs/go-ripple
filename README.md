@@ -16,7 +16,7 @@
  - Outputs the list of all affected packages in various formats:
    - Plain text (one package per line).
    - JSON array of affected packages.
-   - JSON plan format that groups affected packages by application (if applicable) and lists others separately.
+   
  ## Installation:
 
 `go install github.com/tangelo-labs/go-ripple@latest`
